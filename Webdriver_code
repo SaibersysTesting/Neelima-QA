@@ -1,0 +1,41 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Examples {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+		//create the web browser
+		WebDriver dr=new FirefoxDriver();
+		
+		//open the url
+		dr.get("http://www.google.com/");
+		
+		//get the title of the url
+		String t=dr.getTitle();
+		System.out.println(t);
+		
+		//get the html page source
+		String ps=dr.getPageSource();
+		System.out.println(ps);
+		
+		//get the current running url
+		String curl=dr.getCurrentUrl();
+		System.out.println(curl);
+		
+		//navigate to
+		dr.navigate().to("http://www.facebook.com/");
+		
+		Thread.sleep(1000);
+		
+		//navigate back
+		dr.navigate().back();
+		
+		Thread.sleep(1000);
+		
+		//navigate forward
+		dr.navigate().forward();
+		
+	}
+
+}
