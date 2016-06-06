@@ -1,0 +1,24 @@
+package batch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BrowserExamples {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://techno-geek.co.uk/index.html#");
+		
+		driver.manage().window().maximize();
+		
+		driver.getTitle();
+		
+		System.out.println(driver.getTitle());
+		
+		driver.close();
+
+	}
+
+}
