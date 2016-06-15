@@ -1,0 +1,26 @@
+package batch3;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class HandleMouseHover {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+		WebDriver m=new FirefoxDriver();
+		 m.get("http://store.demoqa.com/");
+		 
+		WebElement e=m.findElement(By.linkText("Product Category"));
+		
+		System.out.println(e);
+		
+		Actions a=new Actions(m);
+		a.moveToElement(e).build().perform();
+		Thread.sleep(1000);
+		m.findElement(By.linkText("iPads")).click();
+	}
+
+}
