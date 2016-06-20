@@ -1,0 +1,87 @@
+1)	What is SDLC and different phases in SDLC?
+
+SDLC is abbreviated as Systems Development Life Cycle , a conceptual model used in project management is describing the stages involved in an information system development project, from an initial feasibility study through maintenance of the completed application.
+
+6 Phases in SDLC:
+1.	Requirement gathering and analysis
+2.	Design
+3.	Implementation or coding
+4.	Testing
+5.	Deployment
+6.	Maintenance
+
+2)	What is Waterfall model in SDLC?
+The Waterfall model in SDLC is a sequential design process, used in software development processes, in which progress is seen flowing steadily downwards (indicating a waterfall) through the phases of conception, initiation, analysis, design, construction, testing, production/implementation and maintenance.
+
+3)	What is the process in agile model
+Agile model in SDLC is a combination of iterative and incremental process models with focus on process adaptability and customer satisfaction by rapid delivery of working software product. Agile methods break the product into small incremental builds, which are provided in iterations.
+
+4)	What is scrum methodology
+
+Scrum is a management and control process that reduces complexity to focus on building software that meets business needs. Management and team are able to get their hands around the requirements and technologies, deliver working software, incrementally and factually.
+Scrum is a simple framework for effective team collaboration on complex software projects.  
+
+
+5)	What is daily standup meeting and what we discuss
+
+A daily stand up meeting is a short organizational meeting that is held each day. The meeting, generally limited to between five and fifteen minutes long, sometimes referred to as stand-up, morning roll-call or a daily scrum.
+
+Stand-up meeting includes questions like:
+•	What did you do yesterday?
+•	What will you do today?
+•	Are there any impediments in your way?
+
+6)	What is user story and tasks in user story
+
+A user story is a very high-level definition of a requirement, containing just enough information so that the developers can produce a reasonable estimate of the effort to implement it. This article covers the following topics: 
+•	Introduction to user stories
+•	Initial user stories (informal)
+•	Initial user stories (formal)
+•	User stories and planning
+•	User stories throughout the agile lifecycle
+•	Detailing a user story
+•	Epics
+•	Themes
+Tasks in user story would be a simple work that is assigned to a single person, something like coding, designing, creating test data, automating etc.
+
+7)	What is sprint planning and spring retro
+
+Sprint planning:
+In scrum, sprint planning meeting is attended by product owner, scrum master and the entire scrum team. Outside stakeholders may attend by invitation of the team, although this is rare in most companies
+During the sprint planning meeting, the product owner describes the highest priority features to the team. The team asks enough questions that they can turn a high-level user story of the product backlog into the more detailed tasks of the sprint backlog.
+Sprint retro:
+The sprint retrospective is a meeting facilitated by the ScrumMaster at which the team discusses the just-concluded sprint and determines what could be changed that might make the next sprint more productive. The sprint review looks at what the team is building, whereas the retrospective looks at how they are building it.
+
+The retrospective includes three main questions/points for discussion:
+•	What went well during the sprint cycle?
+•	What went wrong during the sprint cycle?
+•	What could we do differently to improve?
+The sprint retrospective is an important mechanism that allows a team to continuously evolve and improve throughout the life of a project.
+
+
+8)	What is burndown chart and velocity
+
+Burdown chart shows how quickly you are burning thorough your user stories along with your team. It shows the total effort against the amount of work we deliver each iteration.
+
+The velocity report tracks the story points completed in a specified timeframe. It enables team members to determine how well they are keeping to schedule and to measure their performance over time.
+
+
+9)	What is product backlog item and sprint backlog items
+
+Product Backlog Items (PBIs) are the elements that make up the Product Backlog.
+Product Backlog Items can range from specifications and requirements, to use cases, epics, user stories or even bugs and chores. Each PBI must have these qualities:
+•	Description: What the goal of the PBI is.
+•	Value: the business value of the PBI as determined by the Product Owner.
+•	Estimate: the Team needs to estimate the relative effort it will take to move the PBI to done.
+•	Order: The Product Owner needs to prioritize PBIs by their relative value.
+Sprint Backlog:
+The sprint backlog is a list of tasks identified by the Scrum team to be completed during the scrum sprint
+The sprint backlog is commonly maintained as a spreadsheet, but it is also possible to use your defect tracking system or any of a number of software products designed specifically for Scrum or agile.
+
+
+10)	What is user acceptance criteria test cases
+
+User acceptance testing (UAT) is the last phase of the software testing process. During UAT, actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications. UAT is one of the final and critical software project procedures that must occur before newly developed software is rolled out to the market.
+
+Acceptance Criteria are the conditions that a software product must satisfy to be accepted by a user, customer. Acceptance Criteria are a set of statements, each with a clear pass/fail result, that specify both functional and non-functional requirements, and are applicable at the Epic, Feature, and Story Level.
+
