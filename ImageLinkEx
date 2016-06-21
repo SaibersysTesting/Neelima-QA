@@ -1,0 +1,36 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ImageLinkExample {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		WebDriver i=new FirefoxDriver();
+		
+		//1.General images
+		
+		i.get("http://www.google.com/");
+	
+		String imageTitle=i.findElement(By.id("hplogo")).getAttribute("Title");
+		
+		System.out.println(imageTitle);
+		
+		//2.image link
+		 Thread.sleep(3000);
+		
+		i.get("http://www.seleniumhq.org/");
+		i.findElement(By.xpath(".//*[@id='header']/h1/a")).click();
+		
+		//3. image buttons
+		
+		Thread.sleep(2000);
+		
+		i.get("http://www.newtours.demoaut.com/");
+		
+		i.findElement(By.name("login")).click();
+	}
+
+}
