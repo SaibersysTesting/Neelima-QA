@@ -1,0 +1,101 @@
+11)	What is v model?
+
+The V - model is SDLC model where execution of processes happens in a sequential manner in V-shape. It is also known as Verification and Validation model. 
+V - Model is an extension of the waterfall model and is based on association of a testing phase for each corresponding development stage. This means that for every single phase in the development cycle there is a directly associated testing phase. This is a highly disciplined model and next phase starts only after completion of the previous phase.
+V- Model design
+Under V-Model, the corresponding testing phase of the development phase is planned in parallel. So there are Verification phases on one side of the .V. and Validation phases on the other side. Coding phase joins the two sides of the V-Model.
+
+12)	What is STLC?
+
+Software Testing Life Cycle refers to a testing process which has specific steps to be executed in a definite sequence to ensure that the quality goals have been met. In STLC process, each activity is carried out in a planned and systematic way. Each phase has different goals and deliverables. Different organizations have different phases in STLC; however the basis remains the same.
+Below are the phases of STLC:
+1.	Requirements phase
+2.	Planning Phase
+3.	Analysis phase
+4.	Design Phase
+5.	Implementation Phase
+6.	Execution Phase
+7.	Conclusion Phase
+8.	Closure Phase
+
+13)	What is defect? 
+
+When actual result deviates from the expected result while testing a software application or product then it results into a defect. Hence, any deviation from the specification mentioned in the product functional specification document is a defect. In different organizations it’s called differently like bug, issue, incidents or problem.
+
+
+14)	Defect lifecycle
+
+Defect life cycle is a cycle which a defect goes through during its lifetime. It starts when defect is found and ends when a defect is closed, after ensuring it’s not reproduced. Defect life cycle is related to the bug found during testing.
+The bug has different states in the Life Cycle.
+Bug or defect life cycle includes following steps or status:
+1.	New
+2.	Assigned
+3.	Open 
+4.	Fixed
+5.	Pending Retest
+6.	Retest
+7.	Verified
+8.	Reopen
+9.	Closed
+10.	Duplicate
+11.	Rejected
+12.	Deferred
+13.	Not a bug
+
+15)	Different types of testing?
+
+Software testing types are:
+
+1.	Black box testing
+2.	White box testing
+3.	Unit testing
+4.	Incremental integration testing
+5.	Integration testing
+6.	Functional testing
+7.	System testing
+8.	End-to-end testing
+9.	Sanity testing
+10.	Regression testing
+11.	Acceptance testing
+12.	Load testing
+13.	Stress testing
+14.	Performance testing
+15.	Usability testing
+16.	Install/Uninstall testing
+17.	Recovery testing
+18.	Security testing
+19.	Compatibility testing
+20.	Comparison testing
+21.	Alpha testing
+22.	Beta testing.
+
+
+16)	What is unit testing?
+
+Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. Unit testing is often automated but it can also be done manually. This testing mode is a component of extreme programming (XP), a pragmatic method of software development that takes a meticulous approach to building a product by means of continual testing and revision.
+
+17)	What is UAT?
+
+User acceptance testing (UAT) is the last phase of the software testing process. During UAT, actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications. 
+UAT is one of the final and critical software project procedures that must occur before newly developed software is rolled out to the market.
+UAT is also known as beta testing, application testing or end user testing.
+
+18)	What is alpha and beta testing?
+
+Alpha testing: This is a form of internal acceptance testing performed mainly by in-house software QA and testing teams. Alpha testing is the last testing done by test teams at development site after the acceptance testing and before releasing the software for beta test. Alpha testing can also be done by potential users or customers of the application. But still this is a form of in-house acceptance testing.
+
+Beta testing: This is a testing stage followed by internal full alpha test cycle. This is the final testing phase where companies release the software for few external user groups outside the company test teams or employees. This initial software version is called as beta version. Most companies gather user feedback in this release.
+In simple terms beta testing can be defined as – testing carried out by real users in real environment.
+19)	What is traceability matrix?
+
+The Requirements Traceability Matrix (RTM) is a document that links requirements throughout the validation process. The purpose of the Requirements Traceability Matrix is to ensure that all requirements defined for a system are tested in the test protocols. The traceability matrix is a tool both for the validation team, to ensure that requirements are not lost during the validation project, and for auditors, to review the validation documentation.
+
+20)	What are typical environments we have in projects?
+
+1)	Development
+2)	QA (Functional testing of the system)
+3)	System integration testing
+4)	User acceptance testing
+5)	Production
+6)	Production parallel
+7)	CCE (Client Certification Environment) 
