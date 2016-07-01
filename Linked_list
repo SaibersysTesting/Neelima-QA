@@ -1,0 +1,30 @@
+package javacode.Constructor;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class ListIteratorMethodLinkedListExample {
+	public static void main(String args[])
+	{
+	// Create LinkedList object
+        LinkedList list1 = new LinkedList();
+        
+        //adding elements to list1
+        list1.add("String 4");
+        list1.add("String 2");
+        list1.add("String 5");
+        list1.add("String 2");
+        list1.add("String 8");
+        list1.add("String 1");
+        list1.add("String 5");
+        list1.add("String 7");
+                
+        //printing all the values of the LinkedList
+        System.out.println("LinkedList contains : ");
+        Iterator iterator = list1.listIterator(5);
+        while(iterator.hasNext())
+        {
+        	System.out.println(iterator.next());
+        }
+	}
+}
