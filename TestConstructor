@@ -1,0 +1,9 @@
+package javacode.Constructor;
+
+public class TestConstructor{
+public static void main(String args[]){
+	
+	NoteBook noteBook = new NoteBook();
+	noteBook.mymethod();
+   }
+}
