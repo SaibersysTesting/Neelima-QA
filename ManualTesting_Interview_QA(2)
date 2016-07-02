@@ -1,0 +1,37 @@
+21)	What is development environment?
+
+In computer program and software product development, the development environment is the set of processes and programming tools used to create the program or software product. The term may sometimes also imply the physical environment. An integrated development environment is one in which the processes and tools are coordinated to provide developers an orderly interface to and convenient view of the development process (or at least the processes of writing code, testing it, and packaging it for use).
+
+22)	What is QA environment?
+
+A QA environment is where you test your upgrade procedure against data, hardware, and software that closely simulate the Production environment and where you allow intended users to test the resulting Waveset application. A Production environment is where the Waveset application is actually available for business use.
+
+23)	What is production environment?
+
+A production environment is where the real-time staging of programs that run an organization are executed, and includes the personnel, processes, data, hardware, and software needed to perform day-to-day operations.
+
+24)	What are different defect metrics and measurements we prepare?
+
+A Metric is a quantitative measure of the degree to which a system, system component, or process possesses a given attribute. It is a “STANDARDS OF MEASUREMENT”
+
+Software Metrics are used to measure the quality of the project. Simply, Metric is a unit used for describing an attribute. Metric is a scale for measurement.
+
+Measurement is the quantitative indication of extent, amount, dimension, capacity, or size of some attribute of a product or process.
+Test measurement example: Total number of defects.
+Quality is constrained to such topics as correctness, completeness, security, capability, reliability, efficiency, portability, maintainability, compatibility and usability.
+There are a number of frequently used software metrics or measures, which are used to assist in determining the state of the software or the adequacy of the testing.
+
+25)	Types of test metrics we use normally
+1. Customer satisfaction index
+2. Delivered defect quantities
+3. Responsiveness (turnaround time) to users
+4. Product volatility
+5. Defect ratios
+6. Defect removal efficiency
+7. Complexity of delivered product
+8. Test coverage
+9. Cost of defects
+10. Costs of quality activities
+11. Re-work
+12. Reliability and Metrics for Evaluating Application System Testing.
+
