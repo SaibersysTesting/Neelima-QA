@@ -1,0 +1,46 @@
+1)What is testNG listeners ?
+=========================
+TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and 
+easier to use, such as:
+
+    Annotations.
+    Run your tests in arbitrarily big thread pools with various policies available (all methods in their own thread, one thread 
+	per test class, etc...).
+    Test that your code is multithread safe.
+    Flexible test configuration.
+    Support for data-driven testing (with @DataProvider).
+    Support for parameters.
+    Powerful execution model (no more TestSuite).
+    Supported by a variety of tools and plug-ins (Eclipse, IDEA, Maven, etc...).
+    Embeds BeanShell for further flexibility.
+    Default JDK functions for runtime and logging (no dependencies).
+    Dependent methods for application server testing.
+
+TestNG is designed to cover all categories of tests:  unit, functional, end-to-end, integration, etc...
+
+2)Webdriver listeners:
+====================
+Event listener in WebDriver helps to tack event those we trigger and by using these we could get a better idea of sequential order of 
+actions . This is really very helpful for exception section.
+Suppose you are trying to track exception and the same time wants to take screenshot.
+
+3)What are the tehcnologies which webdriver not support:
+-===================================================-
+Selenium webdriver API has officially removed supporting Perl and  PHP
+but there are third party drivers available for the languages.
+
+4)What is the use of Build() method in action class in selenium
+==============================================================
+Generates a composite action containing all actions so far, ready to be performed (and resets the internal builder state, 
+so subsequent calls to build() will contain fresh sequences).
+
+5)Selenium defaut port number
+===========================
+Selenium default port number is 7055
+
+6)JavaScript injection:
+====================
+JavaScript injection is a process by which we can insert and use our own JavaScript code in a 
+page, either by entering the code into the address bar, or by finding an XSS vulnerability in 
+a website. Note that the changes can only be seen by you and are not permanent. This is
+because JavaScript is a "client-side" language.
