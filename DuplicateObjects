@@ -1,0 +1,32 @@
+package batch3;
+
+
+import java.util.List;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class DuplicateObjects {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+		WebDriver d=new FirefoxDriver();
+		d.get("http://www.infibeam.com/");
+		d.findElement(By.linkText("LOGIN / REGISTER")).click();
+		d.findElement(By.id("new-account-btn")).click();
+		
+		List<WebElement> e=d.findElements(By.xpath(".//*[@id='password']"));
+		
+		int noofElements=e.size();
+		System.out.println(noofElements);
+		
+		Thread.sleep(2000);
+		e.get(0).sendKeys("mahesh");
+		
+		Thread.sleep(2000);
+		e.get(1).sendKeys("Raju");
+
+	}
+
+}
