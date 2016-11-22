@@ -1,0 +1,34 @@
+package Examples;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+//import com.sun.org.apache.bcel.internal.generic.Select;
+
+public class Web {
+
+	public static void main(String[] args) throws InterruptedException {
+
+	Thread.sleep(2000);
+
+	WebDriver dr = new FirefoxDriver();
+
+	dr.get("https://uk.webuy.com/");
+
+	dr.findElement(By.id("stext")).sendKeys("iphones");
+
+	dr.findElement(By.xpath(".//*[@id='headersearch']/input")).click();	//takes you to iphones page
+
+	dr.findElement(By.xpath("html/body/div[5]/div[1]/div[3]/div[5]/div[1]/div[5]/div[3]/div/a[2]/div/span")).click(); //adds first item to cart
+
+	dr.findElement(By.xpath("html/body/div[5]/div[1]/div[3]/div[5]/div[1]/div[6]/div[3]/div/a[2]/div/span")).click(); //adds second item to cart
+	
+	dr.findElement(By.xpath("html/body/div[5]/div[2]/div[3]/div[2]/table/tbody/tr/td[2]/a[1]")).click(); // Goes to View Basket
+	
+	dr.findElement(By.xpath("html/body/div[4]/div[1]/div[3]/div[2]/form/table/tbody/tr[1]/td[1]/div/select/option[2]")).click(); //selects quantity as two from drop down options
+	
+	dr.findElement(By.xpath("html/body/div[4]/div[1]/div[3]/div[2]")).click();
+	
+	}
+}
