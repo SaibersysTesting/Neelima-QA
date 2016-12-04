@@ -1,0 +1,87 @@
+//Main Function
+public class MainFunction {
+    public static void main(String[] args) {
+        System.out.println("My first name is Neelima");
+
+    }
+    public void method(){
+        System.out.println("My last name is Daggula");
+    }
+}
+
+//Calling Function
+public class CallingFunction {
+    public static void main(String[] args) {
+        CallingFunction callfunc = new CallingFunction();
+        callfunc.method();
+    }
+    public void method(){
+        System.out.println("My last name is Daggula");
+    }
+}
+
+//Instance evoking
+public class InstanceEx {
+    public static void main(String[] args) {
+        InstanceEx Ram=new InstanceEx();
+        InstanceEx Sita=new InstanceEx();
+
+        Ram.act();
+        Sita.sing();
+    }
+
+    public void act(){
+        System.out.println("Ram is acting");
+    }
+
+    public void sing(){
+        System.out.println("Sita is singing");
+    }
+
+}
+
+//Member Variable
+public class InstanceEx {
+    public static void main(String[] args) {
+        InstanceEx Ram=new InstanceEx();
+        InstanceEx Sita=new InstanceEx();
+
+        Ram.act();
+        Sita.sing();
+    }
+
+    public void act(){
+        System.out.println("Ram is acting");
+    }
+
+    public void sing(){
+        System.out.println("Sita is singing");
+    }
+
+}
+
+//Int Variable
+public class Intvariable {
+    int score=0;
+
+    public static void main(String[] args) {
+        Intvariable match1 = new Intvariable();
+        match1 .one();
+        match1.four();
+        match1.six();
+        match1.printscore();
+    }
+
+    public void one(){
+        score = score + 1;
+    }
+    public void four(){
+       score = score +4;
+    }
+    public void six(){
+        score = score +6;
+    }
+    public void printscore(){
+        System.out.println("Score is : " + score);
+    }
+}
